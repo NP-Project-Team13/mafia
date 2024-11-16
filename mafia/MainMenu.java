@@ -18,7 +18,7 @@ public class MainMenu {
 
             {
                 try {
-                    URL imageUrl = getClass().getResource("/home.png");
+                    URL imageUrl = getClass().getResource("/image/home.png");
                     if (imageUrl != null) {
                         backgroundImage = ImageIO.read(imageUrl).getScaledInstance(800, 600, Image.SCALE_SMOOTH);
                     }
